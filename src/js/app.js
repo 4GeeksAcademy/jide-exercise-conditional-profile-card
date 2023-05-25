@@ -64,8 +64,8 @@ window.onload = function() {
     github: "alesanchezr",
     linkedin: null,
     instagram: null,
-    name: null,
-    lastname: null,
+    name: "Lucy",
+    lastname: "Boylett",
     role: null,
     country: null,
     city: null
