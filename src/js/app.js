@@ -34,7 +34,7 @@ function render(variables = {}) {
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
           <h1>${variables.name} ${variables.lastname}</h1>
-          <h2>Web Developer</h2>
+          <h2>${variables.role}</h2>
           <h3>Miami, USA</h3>
           <ul class="position-right">
             <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i></a></li>
@@ -66,7 +66,7 @@ window.onload = function() {
     instagram: null,
     name: "Lucy",
     lastname: "Boylett",
-    role: null,
+    role: "Web Developer",
     country: null,
     city: null
   };
