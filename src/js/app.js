@@ -66,9 +66,9 @@ window.onload = function() {
     instagram: null,
     name: "Your name",
     lastname: "Your lastname",
-    role: "Web Developer",
-    country: "Spain",
-    city: "Reus"
+    role: "Current role",
+    country: "Country",
+    city: "City"
   };
   render(window.variables); //render the card for the first time
 
